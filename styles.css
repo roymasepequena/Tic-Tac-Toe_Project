@@ -1,0 +1,48 @@
+body{
+    background-color: darkgray;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 300%;
+    padding: 5px;
+}
+
+.game-status-display{
+    color: white;
+    text-align: center;
+    margin: 25px auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid{
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 309px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;    
+    cursor: pointer;
+    border: whitesmoke solid 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: gold;
+    text-align: center;
+    font-size: 250%;
+}
+
+#reset{
+    text-align: center;
+    font-size: large;
+    border: solid 1px black;
+    margin-left: 20px;
+}
